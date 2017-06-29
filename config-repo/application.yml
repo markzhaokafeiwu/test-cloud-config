@@ -19,8 +19,11 @@ ribbon:
   ConnectTimeout: 5000
 
 spring:
-  rabbitmq:
-    host: rabbitmq
+   rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   sleuth:
     sampler:
       percentage: 1
